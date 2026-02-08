@@ -18,9 +18,9 @@ void setup() {
 
   Serial.println("Nhap lenh:");
   Serial.println(" 'REC'   - Bat dau ghi am");
-  Serial.println(" 'STOP'  - Dung ghi am / Dung phat PLAYL");
-  Serial.println(" 'PLAYE' - Phat lai toan bo (Edge)");
-  Serial.println(" 'PLAYL' - Phat am thanh (Level)");
+  Serial.println(" 'STOP'  - Tam dung");
+  Serial.println(" 'PLAYE' - Phat lai toan bo");
+  Serial.println(" 'PLAYL' - Phat am thanh");
 }
 
 void loop() {
