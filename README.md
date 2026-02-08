@@ -14,12 +14,12 @@ Hệ thống được cấu hình để ESP32 điều khiển chủ động các
 
 | Chân ISD1820 | Chân ESP32 | Chức năng (Góc nhìn ESP32) |
 | :--- | :--- | :--- |
-| **VCC** | 3.3V | Cấp nguồn |
-| **GND** | GND | Tiếp địa |
-| **REC** | GPIO 13 | Kích hoạt ghi âm (Active HIGH) |
-| **P-E (PLAYE)** | GPIO 12 | Phát lại toàn bộ (Edge Trigger) |
-| **P-L (PLAYL)** | GPIO 14 | Phát lại theo mức (Level Trigger) |
-| **FT** | GPIO 27 | Chế độ Megaphone (Nói trực tiếp qua Micro) |
+| **VCC** | 3.3V | Nguồn |
+| **GND** | GND | Nối đất |
+| **FT** | | Chế độ nói trực tiếp |
+| **REC** | GPIO 13 | Kích hoạt ghi âm |
+| **P-E (PLAYE)** | GPIO 12 | Phát lại toàn bộ |
+| **P-L (PLAYL)** | GPIO 14 | Phát lại nhiều lần |
 
 # Tính năng mã nguồn
 Mã nguồn chuyển đổi các chân GPIO sang chế độ `OUTPUT`, cho phép người dùng điều khiển module thông qua giao diện dòng lệnh (CLI) trên Serial Monitor.
